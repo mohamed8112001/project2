@@ -1,0 +1,378 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+
+    /* font-family: 'Times New Roman', Times, serif;
+     */
+    font-family: "Lora";
+}
+
+header {
+    background-image: url("images/person.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+
+}
+
+#listOfNav {
+    margin: 20px;
+    float: right;
+
+}
+
+#listOfNav li {
+    color: rgb(88, 70, 70);
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 20px;
+
+
+}
+
+nav li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav li a i {
+    color: rgb(255, 255, 255);
+}
+nav li a:hover{
+    color: blue;
+    transition-duration: 1s;
+}
+nav li i:hover{
+    color: blue;
+    transition-duration: 1s;
+
+}
+.logo {
+    margin: 10px 60px;
+}
+
+.logIn {
+    margin-left: 240px;
+}
+.logIn:hover {
+    padding: 2px;
+    border-radius: 10px;
+    background-color: white;
+    color: #000000;
+}
+
+.contentOfHeader {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.pWelcome {
+    margin: 30px;
+    font-size: 27px;
+}
+
+.hOfHeader {
+    font-size: 80px;
+}
+
+.pParagraph {
+    text-align: center;
+    margin: 60px 30px;
+    font-size: 25px;
+}
+
+.btn1 {
+    padding: 15px;
+    border-radius: 10px;
+    border: 0px solid white;
+    color: aliceblue;
+
+}
+
+.btn1 a {
+    margin-top: -60px;
+    color: black;
+    text-decoration: none;
+}
+
+/* Section one : Welcome */
+.sec1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.sec1 h2 {
+    font-size: 30px;
+    color: rgb(54, 54, 54);
+}
+
+.sec1 p {
+    font-size: 20px;
+    color: rgb(92, 93, 93);
+}
+
+.sec2 {
+    margin-top: 30px;
+    padding: 60px;
+    background-color: rgb(244, 244, 244);
+    width: auto;
+    height: 500px;
+}
+
+.imgOfSec2 {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+.imgOfSec2 img {
+    width: 90%;
+}
+
+.headerOfSec2 {
+    font-size: 33px;
+    color: rgb(54, 54, 54);
+
+}
+
+.contentOfSec2 {
+    line-height: 27px;
+    margin-left: 550px;
+    padding: 40px;
+    color: rgb(96, 96, 96);
+}
+
+
+/******************* section 3 of inages      ***********          */
+.sec3 {
+    background-color: rgb(255, 255, 255);
+
+}
+.headerOfSec3,
+.headerOfSec4 {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.headerOfSec3 h2,
+.headerOfSec4 h2 {
+    font-size: 35px;
+    color: rgb(16, 16, 16);
+}
+
+.headerOfSec3,
+.headerOfSec4 p {
+    font-size: 20px;
+    color: rgb(133, 133, 133);
+    margin-bottom: 50px;
+}
+
+.contentOfSec3 ul {
+    text-align: center;
+}
+
+.contentOfSec3 ul li {
+    margin: 15px;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
+
+.imgsOfSec3 {
+    padding: 40px;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table  ;
+
+}
+.contentOfSec3 a {
+    color: rgb(87, 87, 87);
+    font-size: 17px;
+    text-decoration: none;
+}
+.contentOfSec3 li a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #000000;
+    padding: 5px;
+    transition-duration: .5s;
+}
+
+.btn2 {
+    width: 150px;
+    margin: 20px 45%;
+    text-align: center;
+    background-color: rgb(53, 57, 58);
+    color: aliceblue;
+    padding: 25px;
+    border-radius: 10%;
+    border: none;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* Section 4 of divs of images */
+.sec4 {
+    background-color: rgb(242, 242, 242);
+    height: 900px;
+}
+
+.contentOfSec4 div img {
+    text-align: center;
+    width: 100%;
+}
+.contentOfSec4 div {
+    width: 30%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    display: inline-block;
+}
+
+.conten4OfImg h2 {
+    color: rgb(81, 81, 81);
+}
+
+.conten4OfImg .p1 {
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+}
+
+.conten4OfImg .p2 {
+    color: rgb(90, 89, 89);
+    font-size: 17px;
+}
+
+.sec4 a {
+    text-decoration: none;
+    color: rgb(62, 62, 62);
+    font-size: 15px;
+}
+
+.btn3 {
+    display: block;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 0px;
+    font-size: 14px;
+    background-color: rgb(53, 52, 52);
+    margin-top: 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn3 a {
+    color: white;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: rgb(28, 27, 27);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 400px;
+}
+.social{
+    margin: 40px;
+    width: 50px;
+}
+
+/* *************** Page 1 Simple ********************* */
+.conten4OfPost {
+    background-color: rgb(39, 39, 39);
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    padding: 90px;
+}
+
+.headerOFPost nav {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.headerOFPost a,
+i {
+    text-decoration: none;
+
+    color: black;
+}
+
+.headerOFPost a {
+    color: rgb(60, 61, 62);
+}
+
+.headerOFPost .same {
+    color: rgb(255, 255, 255);
+}
+
+/* ********************* page login ********************* */
+#bodyOfLogin{
+    background-color: aliceblue;
+    padding:60px;
+    background-image: url(/images/bg-01.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundLogin {
+    margin-top: 80px;
+    background-color: rgb(255, 255, 255);
+    height:400px;
+        width: 300px;
+    box-shadow: 1px 1px 6px 2px #888888;
+    margin: auto;
+    text-align: center;
+}
+    form{
+        padding-top: 70px;
+}
+img{
+    margin-bottom: 20px;
+}
+input{
+    padding:10px 20px ;
+    margin:15px 0px ;
+    border: none;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 19px;
+    border: none;
+    box-shadow: 1px 1px 1px 2px ;
+}
+button:hover{
+    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.5);
+}
